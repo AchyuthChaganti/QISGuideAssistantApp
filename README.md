@@ -11,3 +11,17 @@
 3. Enable *Webhook*, set the value of *URL* to the `Function URL` from the previous step, then click *Save*.
 4. Select *Intents* from the left navigation menu. Select the `Default Welcome Intent` intent, scroll down to the end of the page and click *Fulfillment*, check *Use webhook* and then click *Save*. This will allow you to have the welcome intent be a basic webhook intent to test.
 5. Build out your agent and business logic by adding function handlers for Dialogflow actions.
+6. Enable *Auto-preview changes* and Click *Test*. This will open the Actions on Google simulator
+7. Type `Talk to QIS Guide` in the simulator, or say `OK Google, talk to QIS Guide` to any Actions on Google enabled device signed into your developer account.
+
+For more detailed information on deployment, see the [documentation](https://developers.google.com/actions/dialogflow/deploy-fulfillment).
+## References and How to report bugs
+* Actions on Google documentation: [https://developers.google.com/actions/](https://developers.google.com/actions/).
+* If you find any issues, please open a bug here on GitHub.
+* Questions are answered on [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google).
+
+## License
+See [LICENSE](LICENSE).
+
+## Google+
+Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev).
